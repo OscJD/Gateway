@@ -1,0 +1,12 @@
+network={
+        ssid="flyxagro"
+        psk="agrosphere"
+        key_mgmt=WPA-PSK
+}
+
+network={
+        ssid="MMovil"
+        psk="comidarica"
+        key_mgmt=WPA-PSK
+}
+
