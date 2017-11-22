@@ -54,6 +54,12 @@ while True:
                 
             print(lectura)
             if len(lectura)== 15:
+                ANO=lectura[0]
+                MES=lectura[1]
+                DIA=lectura[2]
+                HORA=lectura[3]
+                MINUTO=lectura[4]
+                SEGUNDO=lectura[5]
                 ID=lectura[6]
                 HUM=lectura[7]
                 PRES=lectura[8]
@@ -67,6 +73,12 @@ while True:
                 LLUVIA=0
                 
             elif len(lectura)== 18:
+                ANO=lectura[0]
+                MES=lectura[1]
+                DIA=lectura[2]
+                HORA=lectura[3]
+                MINUTO=lectura[4]
+                SEGUNDO=lectura[5]
                 ID=lectura[6]
                 HUM=lectura[7]
                 PRES=lectura[8]
